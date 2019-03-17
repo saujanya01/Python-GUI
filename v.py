@@ -30,3 +30,17 @@ cv2.imshow('Original',img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+'''
+error
+Exception has occurred: cv2.error
+OpenCV(3.4.3) /io/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor' 
+  File "/home/saujanya/codes/Python code/GUI using Tkinter/v.py", line 6, in <module>
+    gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+  File "/home/saujanya/anaconda3/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/saujanya/anaconda3/lib/python3.7/runpy.py", line 96, in _run_module_code
+    mod_name, mod_spec, pkg_name, script_name)
+  File "/home/saujanya/anaconda3/lib/python3.7/runpy.py", line 263, in run_path
+    pkg_name=pkg_name, script_name=fname)
+'''
